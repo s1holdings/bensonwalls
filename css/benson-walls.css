@@ -1,5 +1,5 @@
 /* GLOBAL */
-@font-face {font-family: 'HP Simplified'; src: url('/fonts/HP Simplified');}
+@font-face {font-family: 'HP Simplified'; src: url('fonts/HP Simplified');}
 html,body {height: 100%;width: 100%;}
 p{font-family: 'HP Simplified';font-weight: 300;}
 row{border-bottom:5px solid #000;}
