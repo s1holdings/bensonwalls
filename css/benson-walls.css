@@ -1,9 +1,21 @@
 /* GLOBAL */
-@font-face {font-family: 'HP Simplified'; src: url('fonts/HP Simplified');}
+@font-face{
+      font-family: 'HPSimplified';
+      src: url(../fonts/v1-1/hps-euro-regular-eot.eot);
+      /* IE9 compat */src: url(../fonts/v1-1/hps-euro-regular-eot.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+       /* non-IE */url('../fonts/v1-1/hps-euro-regular-woff.woff') format('woff'), /*IE9 and some modern browsers*/url('../fonts/v1-1/hps-euro-regular-ttf.ttf') format('truetype'); /*iOS, Android, Safari*/
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face{font-family: 'HPSimplified';src: url(../fonts/v1-1/hps-euro-bold-eot.eot);
+    /* IE9 compat */src: url(../fonts/v1-1/hps-euro-bold-eot.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+    /* non-IE */url('../fonts/v1-1/hps-euro-bold-woff.woff') format('woff'), /*IE9 and some modern browsers*/url('../fonts/v1-1/hps-euro-bold-ttf.ttf') format('truetype'); /*iOS, Android, Safari*/
+      font-weight: bold;
+      font-style: normal;
+}
 html,body {height: 100%;width: 100%;}
 p{font-family: 'HP Simplified';font-weight: 300;}
 row{border-bottom:5px solid #000;}
-
 
 /* ADJUSTMENTS */
 .no-gutter > [class*='col-'] {padding-right: 0;padding-left: 0;}
@@ -29,14 +41,13 @@ row{border-bottom:5px solid #000;}
 @media (min-width: 768px) {.navbar-custom {background-color: transparent;padding: .50% 0;-webkit-transition: padding 0.3s;-moz-transition: padding 0.3s;transition: padding 0.3s;border: none;}
 .navbar-custom .navbar-brand {font-size: 2em;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;transition: all 0.3s;}
 .navbar-custom .navbar-nav > .active > a {border-radius: 3px;}}
-@media (min-width: 768px) {.navbar-custom.affix {background-color: #222222;padding: 10px 0;}.navbar-custom.affix .navbar-brand {font-size: 1.5em;}}
+@media (min-width: 768px) {.navbar-custom.affix {background-color: #222222;padding: 10px 0;}}
 
 /* HEADER */
 #header {padding-top: 1%;padding-bottom: 9%;width: 100%;-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;-o-background-size: cover;background-position: center;background-image: url('../img/benson-walls-room.jpg');text-align: center;}
 #header .header-content {text-align: center;padding: 10% 3% 10%;width: 100%;}
 #header .header-content .header-content-inner {margin-left: auto;margin-right: auto;}
 #header h1{font-family: 'HP Simplified'; color: #fff;font-weight: 300;}
-
 
 /* INTRODUCTION */
 #introduction {border-bottom:.09em #000;}
@@ -49,6 +60,7 @@ row{border-bottom:5px solid #000;}
 #challenge .embed-copy{display: block; margin: 0 auto;padding: 20%;}
 #challenge h2{font-family: 'HP Simplified'; font-size: 3.250em;color: #fff;line-height: 1.1;font-weight: 300;}
 #challenge p{font-family: 'HP Simplified'; color: #fff;font-size: 1.2em;}
+@media (max-width: 801px) {#challenge {background:#0096d6;} #challenge img{display: none;} #challenge .embed-copy{padding: 10%;}}
 
 /* SOLUTION */
 #solution {background: #fff;}
@@ -66,6 +78,7 @@ row{border-bottom:5px solid #000;}
 #noted {background:#fff;}
 #noted .embed-copy{display: block; margin: 0 auto;padding: 10%;}
 #noted p{font-family: 'HP Simplified'; font-size: 3.250em;font-weight:300;color: #000;}
+@media (max-width: 801px) {#noted p {font-size: 1.875em;}}
 
 /* NOTED-BLUE */
 #noted-blue {background:#0096d6;}
@@ -92,9 +105,9 @@ row{border-bottom:5px solid #000;}
 .full {width: 100%;}
 .gap {height: 30px;width: 100%;clear: both;display: block;}
 .footer {background: #5a5a5a;height: auto;padding: 5%;position: relative;width: 100%;border-bottom: 1px solid #CCCCCC;border-top: 1px solid #DDDDDD;}
-.footer h3 {font-family: 'HP Simplified'; margin: 0;color:#fff;}
+.footer h3 {font-family: 'HP Simplified'; margin: 0;color:#fff;padding-top:5%;}
 .footer p {font-family: 'HP Simplified'; margin: 0;color:#fff;}
-.footer ul {font-size: 1.15em;list-style-type: none;margin-left: 0;padding-left: 0;margin-top: 15px;color:#fff;}
+.footer ul {font-size: 1.15em;list-style-type: none;margin-left: 0;padding-left: 0;padding-bottom: 0;margin-top: 15px;color:#fff;padding-bottom:2%;}
 .footer ul li a {font-family: 'HP Simplified'; padding: 1%;display: block;}
 .footer a {font-family: 'HP Simplified'; color: #fff;}
 .footer a:hover {color: #fff;}
