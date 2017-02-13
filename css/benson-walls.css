@@ -45,21 +45,22 @@ row{border-bottom:5px solid #000;}
 
 /* HEADER */
 #header {padding-top: 1%;padding-bottom: 9%;width: 100%;-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;-o-background-size: cover;background-position: center;background-image: url('../img/benson-walls-room.jpg');text-align: center;}
-#header .header-content {text-align: center;padding: 10% 3% 10%;width: 100%;}
-#header .header-content .header-content-inner {margin-left: auto;margin-right: auto;}
-#header h1{font-family: 'HPSimplified'; color: #fff;font-weight: 300;}
+#header .header-content {text-align: center;padding-bottom: 8%}
+#header .header-content .header-content-inner {display: block; margin: 0 auto;padding-top: 15%;width: 75%;}
+#header h1{font-family: 'HPSimplified';font-weight:300;color: #fff;text-shadow: 2px 2px 10px rgba(0,0,0,.6);}
+#header span{font-weight:500;float: right;}
 
 /* INTRODUCTION */
 #introduction {border-bottom:.09em #000;}
-#introduction .embed-copy{display: block; margin: 0 auto;padding: 10%;}
+#introduction .embed-copy{display: block; margin: 0 auto;padding: 5%;}
 #introduction h2{font-family: 'HPSimplified';font-size: 3.250em;color: #000;line-height: 1.1;font-weight: 300;}
 #introduction p{font-family: 'HPSimplified'; color: #000;font-size: 1.2em;}
 
 /* CHALLENGE */
 #challenge {background: #fff;width: 100%;-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;-o-background-size: cover;background-position: center;background-image: url('../img/hp-benson-walls-challenge.jpg');}
 #challenge .embed-copy{display: block; margin: 0 auto;padding: 20%;}
-#challenge h2{font-family: 'HPSimplified'; font-size: 3.250em;color: #fff;line-height: 1.1;font-weight: 300;}
-#challenge p{font-family: 'HPSimplified'; color: #fff;font-size: 1.2em;}
+#challenge h2{font-family: 'HPSimplified'; font-size: 3.250em;color: #fff;line-height: 1.1;font-weight: 300; text-shadow: 2px 2px 10px rgba(0,0,0,.6);}
+#challenge p{font-family: 'HPSimplified'; color: #fff;font-size: 1.2em; text-shadow: 2px 2px 10px rgba(0,0,0,.6);}
 @media (max-width: 801px) {#challenge {background:#0096d6;} #challenge img{display: none;} #challenge .embed-copy{padding: 10%;}}
 
 /* SOLUTION */
@@ -83,8 +84,9 @@ row{border-bottom:5px solid #000;}
 /* NOTED-BLUE */
 #noted-blue {background:#0096d6;}
 #noted-blue .embed-copy{display: block; margin: 0 auto;padding: 10%;}
-#noted-blue p{font-family: 'HPSimplified'; font-size: 1.875em;font-weight:300;color: #fff;}
-#noted-blue span{font-weight:500;text-align: right;}
+#noted-blue p{font-family: 'HPSimplified'; font-size: 3.250em;font-weight:300;color: #fff;}
+#noted-blue span{font-weight:500;text-align: right;float: right;}
+@media (max-width: 801px) {#noted-blue p {font-size: 1.875em;}}
 
 /* PRODUCTS */
 #wallcoverings {background: #dfe2e2;}
