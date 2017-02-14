@@ -51,27 +51,21 @@ row{border-bottom:5px solid #000;}
 #header span{font-weight:500;float: right;}
 
 /* INTRODUCTION */
-#introduction {border-bottom:.09em #000;}
-#introduction .embed-copy{display: block; margin: 0 auto;padding: 5%;}
-#introduction h2{font-family: 'HPSimplified';font-size: 3.250em;color: #000;line-height: 1.1;font-weight: 300;}
-#introduction p{font-family: 'HPSimplified'; color: #000;font-size: 1.2em;}
-
-/* CHALLENGE */
-#challenge {background: #fff;width: 100%;-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;-o-background-size: cover;background-position: center;background-image: url('../img/hp-benson-walls-challenge.jpg');}
-#challenge .embed-copy{display: block; margin: 0 auto;padding: 20%;}
-#challenge h2{font-family: 'HPSimplified'; font-size: 3.250em;color: #fff;line-height: 1.1;font-weight: 300; text-shadow: 2px 2px 10px rgba(0,0,0,.6);}
-#challenge p{font-family: 'HPSimplified'; color: #fff;font-size: 1.2em; text-shadow: 2px 2px 10px rgba(0,0,0,.6);}
-@media (max-width: 801px) {#challenge {background:#0096d6;} #challenge img{display: none;} #challenge .embed-copy{padding: 10%;}}
+#challenge {border-bottom:.09em #000;}
+#challenge .embed-copy{display: block; margin: 0 auto;padding: 8%;}
+#challenge h2{font-family: 'HPSimplified';font-size: 3.250em;color: #000;line-height: 1.1;font-weight: 300;}
+#challenge p{font-family: 'HPSimplified'; color: #000;font-size: 1.2em;}
 
 /* SOLUTION */
-#solution {background: #fff;}
-#solution .embed-copy{display: block; margin: 0 auto;padding: 10%;}
-#solution h2{font-family: 'HPSimplified'; font-size: 3.250em;color: #000;line-height: 1.1;font-weight: 300;}
-#solution p{font-family: 'HPSimplified'; color: #000;font-size: 1.2em;}
+#solution {background: #fff;width: 100%;-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;-o-background-size: cover;background-position: center;background-image: url('../img/hp-benson-walls-solution.jpg');}
+#solution .embed-copy{display: block; margin: 0 auto;padding: 20%;}
+#solution h2{font-family: 'HPSimplified'; font-size: 3.250em;color: #fff;line-height: 1.1;font-weight: 300; text-shadow: 2px 2px 10px rgba(0,0,0,.6);}
+#solution p{font-family: 'HPSimplified'; color: #fff;font-size: 1.2em; text-shadow: 2px 2px 10px rgba(0,0,0,.6);}
+@media (max-width: 801px) {#solution {background:#0096d6;} #solution img{display: none;} #solution .embed-copy{padding: 10%;}#solution h2{text-shadow: 2px 2px 10px rgba(0,0,0,.0);}#solution p{text-shadow: 2px 2px 10px rgba(0,0,0,.0);}}
 
 /* RESULT */
 #result {background: #fff;}
-#result .embed-copy{display: block; margin: 0 auto;padding:  10%;}
+#result .embed-copy{display: block; margin: 0 auto;padding: 8% 10% 0 10%;}
 #result h2{font-family: 'HPSimplified'; font-size: 3.250em;color: #000;line-height: 1.1;font-weight: 300;}
 #result p{font-family: 'HPSimplified'; color: #000;font-size: 1.2em;}
 
@@ -79,13 +73,14 @@ row{border-bottom:5px solid #000;}
 #noted {background:#fff;}
 #noted .embed-copy{display: block; margin: 0 auto;padding: 10%;}
 #noted p{font-family: 'HPSimplified'; font-size: 3.250em;font-weight:300;color: #000;}
+#noted span{font-weight:500;float: right;}
 @media (max-width: 801px) {#noted p {font-size: 1.875em;}}
 
 /* NOTED-BLUE */
 #noted-blue {background:#0096d6;}
 #noted-blue .embed-copy{display: block; margin: 0 auto;padding: 10%;}
 #noted-blue p{font-family: 'HPSimplified'; font-size: 3.250em;font-weight:300;color: #fff;}
-#noted-blue span{font-weight:500;text-align: right;float: right;}
+#noted-blue span{font-weight:500;float: right;}
 @media (max-width: 801px) {#noted-blue p {font-size: 1.875em;}}
 
 /* PRODUCTS */

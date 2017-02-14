@@ -29,5 +29,4 @@
         target: '.navbar-fixed-top',
         offset: 51
     })
-
 })(jQuery); // End of use strict
