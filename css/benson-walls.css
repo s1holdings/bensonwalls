@@ -41,7 +41,7 @@ row{border-bottom:5px solid #000;}
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {color: #0096d6 !important;background-color:transparent !important;}
 .navbar-default .navbar-toggle {border:0px;background-color:#transparent;}
 .navbar-default .navbar-toggle:active {background-color:#5a5a5a;}
-@media (min-width: 1025px){.mh {display: none;}}
+@media (min-width: 801px){.mh {display: none;}}
 
 /* HEADER */
 #header {padding-top: 1%;padding-bottom: 9%;width: 100%;-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;-o-background-size: cover;background-position: center;background-image: url('../img/benson-walls-room.jpg');text-align: center;}
@@ -65,8 +65,7 @@ row{border-bottom:5px solid #000;}
 
 /* RESULT */
 #result {background: #fff;}
-#result .embed-copy-lg{display: block; margin: 0 auto;padding: 8%;}
-#result .embed-copy-md{display: block; margin: 0 auto;padding: 11% 10%;}
+#result .embed-copy{display: block; margin: 0 auto;padding: 8% 10% 0 10%;}
 #result h2{font-family: 'HPSimplified'; font-size: 3.250em;color: #000;line-height: 1.1;font-weight: 300;}
 #result p{font-family: 'HPSimplified'; color: #000;font-size: 1.2em;}
 

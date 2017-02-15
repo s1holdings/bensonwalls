@@ -1,3 +1,5 @@
+.bg-dark {background-color:rgba(0,0,0,0.3);}
+
 .twentytwenty-horizontal .twentytwenty-handle:before, .twentytwenty-horizontal .twentytwenty-handle:after, .twentytwenty-vertical .twentytwenty-handle:before, .twentytwenty-vertical .twentytwenty-handle:after {
   content: " ";
   display: block;
@@ -102,12 +104,13 @@
 .twentytwenty-before-label {
   opacity: 0; }
   .twentytwenty-before-label:before {
-    content: "Before"; }
+    content: "Hold and drag the slider"; }
 
 .twentytwenty-after-label {
-  opacity: 0; }
+  opacity: 0; 
+  display:none;}
   .twentytwenty-after-label:before {
-    content: "After"; }
+    content: ""; }
 
 .twentytwenty-horizontal .twentytwenty-before-label:before {
   left: 10px; }
